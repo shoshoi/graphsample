@@ -1,0 +1,14 @@
+<h5>Author毎の変更行数</h5>
+<canvas id="myChart" width="200" height="100"></canvas>
+<script>draw_graph();</script>
+<%= form_for @search_form, url: git_log_search_form_path, method: :get do |f| %>
+  <%# テキストボックス（日付の範囲指定） %>
+  <div class="form-inline text-center well align-middle">
+    <%= f.label :search_type_label, '集計単位:', class: 'form-inline' %>
+    <%= f.select :search_type, [['年','year'],['月','month'],['日','date']], {}, class: 'form-control form-inline' %>
+    <%= f.label :since, '期間:', class:'control-label form-inline' %>
+    <%= f.text_field :since, class: 'date-picker form-control form-inline' %> 〜
+    <%= f.text_field :until, class: 'date-picker form-control form-inline' %>　
+    <%= f.submit '検索する', class: "btn btn-lg btn-primary"%>
+  </div>
+<% end %>

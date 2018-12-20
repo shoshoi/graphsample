@@ -1,0 +1,7 @@
+#!/bin/sh
+exec ruby -S -x $0 "$@"
+#! ruby
+
+pid = `cat /Users/jimmy/repositories/graphsample/tmp/pids/server.pid`
+`kill #{pid}` if pid.length > 0
+puts `bundle exec rails s -d`

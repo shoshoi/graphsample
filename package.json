@@ -1,0 +1,7 @@
+{
+  "name": "graphsample",
+  "private": true,
+  "dependencies": {
+    "chart.js": "^2.7.3"
+  }
+}

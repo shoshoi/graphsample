@@ -1,0 +1,126 @@
+Jirno, 2018-10-15, Jirno, 2018-10-15, 日付の初期値を設定
+2	0	app/controllers/authors_controller.rb
+
+Jirno, 2018-10-15, Jirno, 2018-10-15, datepicker適用、検索フォーム実装
+7	1	app/assets/javascripts/application.js
+10	0	app/assets/javascripts/authors.coffee
+18	0	app/assets/stylesheets/application.scss
+3	0	app/assets/stylesheets/authors.scss
+31	0	app/controllers/authors_controller.rb
+2	0	app/helpers/authors_helper.rb
+5	0	app/models/git_log_search_form.rb
+19	0	app/views/authors/index.erb
+1	0	config/routes.rb
+5	0	spec/controllers/authors_controller_spec.rb
+15	0	spec/helpers/authors_helper_spec.rb
+
+Jirno, 2018-10-14, Jirno, 2018-10-14, bootstrap,jquery適用
+4	0	Gemfile
+14	0	Gemfile.lock
+3	0	app/assets/javascripts/application.js
+0	15	app/assets/stylesheets/application.css
+2	0	app/views/layouts/application.html.erb
+1	1	config/initializers/assets.rb
+1	0	config/routes.rb
+14	1	db/seeds.rb
+8	8	spec/factories/git_logs.rb
+
+Jirno, 2018-10-14, Jirno, 2018-10-14, モデル追加
+3	0	app/models/author.rb
+3	0	app/models/git_log.rb
+9	0	db/migrate/20181013132424_create_authors.rb
+14	0	db/migrate/20181013132521_create_git_logs.rb
+32	0	db/schema.rb
+5	0	spec/factories/authors.rb
+24	0	spec/factories/git_logs.rb
+5	0	spec/models/author_spec.rb
+5	0	spec/models/git_log_spec.rb
+
+Jirno, 2018-10-14, Jirno, 2018-10-14, モデル作成、factory作成
+8	0	db/seeds.rb
+1	0	spec/rails_helper.rb
+
+Jirno, 2018-10-13, Jirno, 2018-10-13, first commit
+32	0	.gitignore
+1	0	.rspec
+1	0	.ruby-version
+66	0	Gemfile
+245	0	Gemfile.lock
+24	0	README.md
+6	0	Rakefile
+3	0	app/assets/config/manifest.js
+0	0	app/assets/images/.keep
+16	0	app/assets/javascripts/application.js
+13	0	app/assets/javascripts/cable.js
+0	0	app/assets/javascripts/channels/.keep
+15	0	app/assets/stylesheets/application.css
+4	0	app/channels/application_cable/channel.rb
+4	0	app/channels/application_cable/connection.rb
+2	0	app/controllers/application_controller.rb
+0	0	app/controllers/concerns/.keep
+2	0	app/helpers/application_helper.rb
+2	0	app/jobs/application_job.rb
+4	0	app/mailers/application_mailer.rb
+3	0	app/models/application_record.rb
+0	0	app/models/concerns/.keep
+15	0	app/views/layouts/application.html.erb
+13	0	app/views/layouts/mailer.html.erb
+1	0	app/views/layouts/mailer.text.erb
+3	0	bin/bundle
+9	0	bin/rails
+9	0	bin/rake
+36	0	bin/setup
+17	0	bin/spring
+31	0	bin/update
+11	0	bin/yarn
+5	0	config.ru
+19	0	config/application.rb
+4	0	config/boot.rb
+10	0	config/cable.yml
+1	0	config/credentials.yml.enc
+25	0	config/database.yml
+5	0	config/environment.rb
+61	0	config/environments/development.rb
+94	0	config/environments/production.rb
+46	0	config/environments/test.rb
+8	0	config/initializers/application_controller_renderer.rb
+14	0	config/initializers/assets.rb
+7	0	config/initializers/backtrace_silencers.rb
+25	0	config/initializers/content_security_policy.rb
+5	0	config/initializers/cookies_serializer.rb
+4	0	config/initializers/filter_parameter_logging.rb
+16	0	config/initializers/inflections.rb
+4	0	config/initializers/mime_types.rb
+14	0	config/initializers/wrap_parameters.rb
+33	0	config/locales/en.yml
+34	0	config/puma.rb
+3	0	config/routes.rb
+6	0	config/spring.rb
+34	0	config/storage.yml
+7	0	db/seeds.rb
+0	0	lib/assets/.keep
+0	0	lib/tasks/.keep
+0	0	log/.keep
+5	0	package.json
+67	0	public/404.html
+67	0	public/422.html
+66	0	public/500.html
+0	0	public/apple-touch-icon-precomposed.png
+0	0	public/apple-touch-icon.png
+0	0	public/favicon.ico
+1	0	public/robots.txt
+61	0	spec/rails_helper.rb
+96	0	spec/spec_helper.rb
+0	0	storage/.keep
+5	0	test/application_system_test_case.rb
+0	0	test/controllers/.keep
+0	0	test/fixtures/.keep
+0	0	test/fixtures/files/.keep
+0	0	test/helpers/.keep
+0	0	test/integration/.keep
+0	0	test/mailers/.keep
+0	0	test/models/.keep
+0	0	test/system/.keep
+10	0	test/test_helper.rb
+0	0	tmp/.keep
+0	0	vendor/.keep

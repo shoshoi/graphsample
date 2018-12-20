@@ -1,0 +1,2 @@
+#!/bin/sh
+rails runner scripts/git_log_importer.rb /Users/jimmy/repositories/graphsample 
